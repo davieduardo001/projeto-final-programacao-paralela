@@ -8,7 +8,7 @@ import java.nio.charset.StandardCharsets;
 
 public class JsonSearchUtil {
 
-    private static final String JSON_FILE_PATH = "/server_b/data/dados_servidor_b.json";
+    private static final String JSON_FILE_PATH = "/com/java/server_b/data/dados_servidor_b.json";
     private JSONArray knowledgeBase;
 
     public JsonSearchUtil() {
