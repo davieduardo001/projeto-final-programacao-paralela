@@ -12,7 +12,7 @@ Este projeto demonstra um servidor socket Java multithread (`server_a`) e um cli
 1.  Abra um terminal ou prompt de comando.
 2.  Navegue até o diretório raiz do projeto (onde o arquivo `pom.xml` está localizado):
     ```bash
-    cd /caminho/para/projeto-final-poc
+    cd /caminho/para/projeto-clonado
     ```
 3.  Compile o projeto usando Maven:
     ```bash
