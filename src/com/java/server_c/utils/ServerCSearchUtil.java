@@ -9,7 +9,7 @@ import java.nio.charset.StandardCharsets;
 
 public class ServerCSearchUtil {
 
-    private static final String JSON_FILE_PATH = "/server_c/data/dados_servidor_c.json";
+    private static final String JSON_FILE_PATH = "/com/java/server_c/data/dados_servidor_c.json";
     private JSONArray knowledgeBase;
 
     public ServerCSearchUtil() {
