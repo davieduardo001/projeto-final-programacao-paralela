@@ -1,4 +1,4 @@
-package com.java.client; 
+package client; 
 
 import java.io.BufferedWriter;
 import java.io.OutputStreamWriter;
