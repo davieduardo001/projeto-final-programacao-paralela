@@ -63,7 +63,7 @@ mvn clean compile
 
 ### Servidor A
 ```bash
-mvn exec:java -Dexec.mainClass="com.java.server_a.Main"
+mvn exec:java -Dexec.mainClass="server_a.Main"
 ```
 
 Porta padrão: **3001**
@@ -72,7 +72,7 @@ Porta padrão: **3001**
 
 ### Servidor B
 ```bash
-mvn exec:java -Dexec.mainClass="com.java.server_b.Main"
+mvn exec:java -Dexec.mainClass="server_b.Main"
 ```
 
 Porta padrão: **4002**
@@ -81,7 +81,7 @@ Porta padrão: **4002**
 
 ### Servidor C
 ```bash
-mvn exec:java -Dexec.mainClass="com.java.server_c.Main"
+mvn exec:java -Dexec.mainClass="server_c.Main"
 ```
 
 Porta padrão: **4003**
@@ -92,11 +92,11 @@ Porta padrão: **4003**
 
 * **Busca padrão:**
 ```bash
-mvn exec:java -Dexec.mainClass="com.java.client.Client"
+mvn exec:java -Dexec.mainClass="client.Client"
 ```
 * **Busca personalizada:**
 ```bash
-mvn exec:java -Dexec.mainClass="com.java.client.Client" -Dexec.arguments="pipeline" # troque pipeline pelo seu texto de busca
+mvn exec:java -Dexec.mainClass="client.Client" -Dexec.arguments="pipeline" # troque pipeline pelo seu texto de busca
 ```
 
 ---
